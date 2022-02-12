@@ -1,9 +1,9 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #dce9d5;
-    --tertiary: #788585;
-    --light-dark: #a1a0a1;
-    --dark: #201110;
+    --primary: #e9ec0d;
+    --secondary: #85d800;
+    --tertiary: #06f3f3;
+    --light-dark: #49c7b2;
+    --dark: #14240e;
     --border-radius: .3rem;
 }
 
@@ -63,10 +63,10 @@ p {
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: gray;
     transform: translate(-1px, -1px);
 }
 
@@ -370,6 +370,10 @@ footer {
         flex: 0 0 100%;
     }
 }
+.class{
+    color: crimson;
+}
+
 /* col-md */
 
 @media screen and (min-width: 768px) {
